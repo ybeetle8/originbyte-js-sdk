@@ -7,6 +7,7 @@ const fetchNft = async () => {
   });
 
   console.log("collection", collection);
+  console.log('已测试')
 };
 
 fetchNft();
