@@ -1,0 +1,42 @@
+
+
+后端合约:
+https://github.com/Origin-Byte/nft-protocol
+前端代码, 无界面:
+https://github.com/Origin-Byte/originbyte-js-sdk
+示例网站  https://souffl3.com/  好像用的就是这个底层
+
+
+
+
+
+
+做得较好的NFT交易所有:
+https://bluemove.net/ 
+https://sui.hyperspace.xyz/
+https://clutchy.io/
+https://souffl3.com/
+https://beta.somis.xyz/
+
+sui生态总列表  上面有所有的nft交易市场
+https://movemarketcap.com/sui/
+
+
+
+
+----- Transaction Effects ----  我们发两点的NFT 市场合约
+Status : Success
+Created Objects:
+  - ID: 0x15cf0807cf4fc23cf1bb07d1ba713c8dee7fe22462e9802b18c97e30e1547c6b , Owner: Shared
+  - ID: 0x18f957cb39d04b441c0ede00b47053c4856cdfeacc107ba43fd05668d39c2396 , Owner: Account Address ( 0x6b7a812dc0090e3fb8e25bdd26abd003f78b45be6ee1f50c5dc9a3be1cde76b5 )
+  - ID: 0x7124b14271d728133e0c03d0b39c36ee22db2ec2cb3fe7bc3eef7251fc7f20de , Owner: Immutable
+  - ID: 0x970a8226b78ed053a444bc9c59f6cd1ea958a00dd07abe1ac2043a990dde6227 , Owner: Account Address ( 0x6b7a812dc0090e3fb8e25bdd26abd003f78b45be6ee1f50c5dc9a3be1cde76b5 )
+  - ID: 0xc7c8d11b0262ca4cf96f860b7b36edbcc7ee043843463c334b2fd612d5ca9c94 , Owner: Account Address ( 0x6b7a812dc0090e3fb8e25bdd26abd003f78b45be6ee1f50c5dc9a3be1cde76b5 )
+  - ID: 0xce466e4a54bec4a2dc34dc6f19b6a371947f4aa930ca5318e71ddcdb46789da4 , Owner: Immutable
+  - ID: 0xd3ade4317b67aaf70c1c4a517eed4387c69cad64a63db60f3a3d1cdc1718935f , Owner: Account Address ( 0x6b7a812dc0090e3fb8e25bdd26abd003f78b45be6ee1f50c5dc9a3be1cde76b5 )
+  - ID: 0xe8788e49b456bb4a3aa5d91d0a8273f86a785dbdd3d861cd4db2a207b5ec7703 , Owner: Shared
+Mutated Objects:
+  - ID: 0xd4b97c0f6d46b2e1d4e57a4f7db38472334dc48292bb6e97bd40fa32b3a158c2 , Owner: Account Address ( 0x6b7a812dc0090e3fb8e25bdd26abd003f78b45be6ee1f50c5dc9a3be1cde76b5 )
+
+
+
