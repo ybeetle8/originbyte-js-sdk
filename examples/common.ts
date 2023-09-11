@@ -101,13 +101,21 @@ function hexStringToUint8Array(hexStr: string) {
 }
 
 // eslint-disable-next-line max-len
-export const keypair = process.env.WALLET_PK
-  ? Ed25519Keypair.fromSecretKey(hexStringToUint8Array(process.env.WALLET_PK))
-  : Ed25519Keypair.deriveKeypair(mnemonic);
+// export const keypair = process.env.WALLET_PK
+//   ? Ed25519Keypair.fromSecretKey(hexStringToUint8Array(process.env.WALLET_PK))
+//   : Ed25519Keypair.deriveKeypair(mnemonic);
+
+// 新加的私钥  钱包地址是: 0x02003d6b016303427f67d28a8b58b1ebfadcbde19e3a4a64b1e34a8ecb32b494
+let SecretKey = "0x6c39b88a993a64d939525f752bf07710061901c240bc9ccb10528f99ec801c75";
+let buff = Buffer.from(SecretKey.slice(2), 'hex');
+const keypair = Ed25519Keypair.fromSecretKey(buff);
 
 export const provider = new JsonRpcProvider(
-  new Connection({ fullnode: "https://sui-rpc-mainnet.testnet-pride.com" })
+  //new Connection({ fullnode: "https://sui-rpc-mainnet.testnet-pride.com" })
+  new Connection({ fullnode: "https://sui-mainnet-rpc.allthatnode.com/Kts0OA3P7zqlBFrcxi1cbe7JTHQEsMtH" })
 );
+
+
 export const signer = new RawSigner(keypair, provider);
 export const client = new NftClient(provider);
 export const orderbookClient = OrderbookFullClient.fromKeypair(
