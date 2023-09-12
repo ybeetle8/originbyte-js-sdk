@@ -27,9 +27,9 @@ export const mnemonic =
 // Step 0 - Publish
 
 export const PACKAGE_OBJECT_ID =
-  "0xd624568412019443dbea9c4e97a6c474cececa7e9daef307457cb34dd04eee0d"; // Change to your deployed contract
+  "0xce466e4a54bec4a2dc34dc6f19b6a371947f4aa930ca5318e71ddcdb46789da4"; // Change to your deployed contract
 export const COLLECTION_ID =
-  "0xc64714be5cb0c9c9ab6c349964b18eb11b9739155dd1dfd9af0abe2d71eebb86"; // Change to your deployed contract
+  "0xe8788e49b456bb4a3aa5d91d0a8273f86a785dbdd3d861cd4db2a207b5ec7703"; // Change to your deployed contract
 export const COLLECTION_ID_NAME = `${COLLECTION_ID}::clutchynfts::ClutchyNft`;
 export const COLLECTION_TYPE = `${PACKAGE_OBJECT_ID}::collection::Collection<${COLLECTION_ID_NAME}>`;
 export const NFT_TYPE = `${PACKAGE_OBJECT_ID}::nft::Nft<${COLLECTION_ID_NAME}>`;

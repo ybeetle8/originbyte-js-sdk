@@ -58,6 +58,7 @@
   },
   "dependencies": {
     "@mysten/sui.js": "0.34.0",
+    "@originbyte/js-sdk": "^0.29.65",
     "superstruct": "^1.0.3"
   }
 }
